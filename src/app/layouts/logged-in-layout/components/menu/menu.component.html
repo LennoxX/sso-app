@@ -1,0 +1,40 @@
+<aside class="main-sidebar elevation-4 sidebar-dark-success">
+
+    <div class="sidebar">
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <!-- <img src="./assets/img/pp.jpg" class="img-circle elevation-2"> -->
+        </div>
+        <div class="info">
+          <a routerLink="/" onclick="return false;" class="d-block">User Name</a>
+        </div>
+      </div>
+  
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column nav-legacy nav-child-indent"
+            data-widget="treeview" role="menu"
+            data-accordion="false">
+  
+          <li class="nav-item">
+            <a routerLink="/"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+              class="nav-link">
+              <i class="nav-icon fa-solid fa-chart-column"></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/aplicacoes" routerLinkActive="active"
+              class="nav-link">
+              <i class="nav-icon fa-solid fa-chart-column"></i>
+              <p>
+                Aplicações
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  
